@@ -1,5 +1,5 @@
 pipeline {
-    agent any # jenkin master look and assign which is free
+    agent any
 
     stages{
         stage('SCM Checkout') {
